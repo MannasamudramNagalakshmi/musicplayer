@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    
+</head>
+<body>
+    <div class="wholeContainer">
+
+        <div class="container">
+            <div class="songsMenu">
+                <div class="playlist">
+                    <h1 >Playlist</h1>
+                    <h5 class="active listOfContents"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h5>
+                    <h5 class="listOfContents"><span></span><i class="bi bi-music-note-beamed"></i>Last Listening</h5>
+                    <h5 class="listOfContents"><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h5>
+                </div>
+                <div class="songsList">
+                    <li class="songItem">
+                        <span>01</span>
+                        <img src="images\song-albums\kgf-2.jpg" alt="kgf-2">
+                        <h5>Sulthana Song
+                            <div>KGF-2</div>       
+                        </h5>
+                        <i class="bi bi-play-circle-fill" id="1"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>02</span>
+                        <img src="images/kgf-2.jpg" alt="kgf-2">
+                        <h5>Sulthana Song
+                            <div>KGF-2</div>
+                            
+                        </h5>
+                        <i class="bi bi-play-circle-fill" id="2"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>03</span>
+                        <img src="images/kgf-2.jpg" alt="kgf-2">
+                        <h5>Sulthana Song
+                            <div>KGF-2</div>
+                        </h5>
+                        <i class="bi bi-play-circle-fill" id="3"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>04</span>
+                        <img src="images/kgf-2.jpg" alt="kgf-2">
+                        <h5>Sulthana Song
+                            <div>KGF-2</div>  
+                        </h5>
+                        <i class="bi bi-play-circle-fill" id="4"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>05</span>
+                        <img src="images/kgf-2.jpg" alt="kgf-2">
+                        <h5>Sulthana Song
+                            <div>KGF-2</div>
+                            
+                        </h5>
+                        <i class="bi bi-play-circle-fill" id="5"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>06</span>
+                        <img src="images/kgf-2.jpg" alt="kgf-2">
+                        <h5>Sulthana Song
+                            <div>KGF-2</div>
+                        </h5>
+                        <i class="bi bi-play-circle-fill" id="6"></i>
+                    </li>
+                </div>
+    
+            </div>
+            <div class="albumPlay">
+                <div class="nav">
+                    <ul>
+                        <li>Discovery<span></span></li>
+                        <li>My Libraury</li>
+                        <li>Radio</li>
+                    </ul>
+                    <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input type="text" placeholder=" Search Music...">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Life is one grand sweet song so start the music...</h3>
+                    <p>____Ronald Reagan</p>
+                </div>
+                <div class="popularSongs">
+                    <div class="h4">
+                        <h4>Popular Song</h4>
+                        <div class="bt">
+                        <i id="left-scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="right-scroll" class="bi bi-arrow-right-short"></i>
+                        </div>
+    
+                    </div>
+                    <div class="pop_song">
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kgf-2.jpg" alt="">
+                                <i class="bi bi-play-circle-fill" id="7"></i>
+                            </div>
+                            <div class="title">
+                                <h5>Sulthana Song
+                                    <div>KGF-2</div>
+                                </h5>
+                            </div>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kgf-2.jpg" alt="">
+                                <i class="bi bi-play-circle-fill" id="8"></i>
+                            </div>
+                            <div class="title">
+                                <h5>Sulthana Song
+                                    <div>KGF-2</div>
+                                </h5>
+                            </div>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kgf-2.jpg" alt="">
+                                <i class="bi bi-play-circle-fill" id="9"></i>
+                            </div>
+                            <div class="title">
+                                <h5>Sulthana Song
+                                    <div>KGF-2</div>
+                                </h5>
+                            </div>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kgf-2.jpg" alt="">
+                                <i class="bi bi-play-circle-fill" id="10"></i>
+                            </div>
+                            <div class="title">
+                                <h5>Sulthana Song
+                                    <div>KGF-2</div>
+                                </h5>
+                            </div>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kgf-2.jpg" alt="">
+                                <i class="bi bi-play-circle-fill" id="11"></i>
+                            </div>
+                            <div class="title">
+                                <h5>Sulthana Song
+                                    <div>KGF-2</div>
+                                </h5>
+                            </div>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kgf-2.jpg" alt="">
+                                <i class="bi bi-play-circle-fill" id="12"></i>
+                            </div>
+                            <div class="title">
+                                <h5>Sulthana Song
+                                    <div>KGF-2</div>
+                                </h5>
+                            </div>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kgf-2.jpg" alt="">
+                                <i class="bi bi-play-circle-fill" id="13"></i>
+                            </div>
+                            <div class="title">
+                                <h5>Sulthana Song
+                                    <div>KGF-2</div>
+                                </h5>
+                            </div>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kgf-2.jpg" alt="">
+                                <i class="bi bi-play-circle-fill" id="14"></i>
+                            </div>
+                            <div class="title">
+                                <h5>Sulthana Song
+                                    <div>KGF-2</div>
+                                </h5>
+                            </div>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="images/kgf-2.jpg" alt="">
+                                <i class="bi bi-play-circle-fill" id="15"></i>
+                            </div>
+                            <div class="title">
+                                <h5>Sulthana Song
+                                    <div>KGF-2</div>
+                                </h5>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+                <div class="popularArtists">
+                    <div class="h4">
+                        <h4>Popular Artists</h4>
+                        <div class="bt_s">
+                        <i id="left-scrolls" class="bi bi-arrow-left-short"></i>
+                        <i id="right-scrolls" class="bi bi-arrow-right-short"></i>
+                        </div>
+                    </div>
+                    <div class="singerList">
+                        <li>
+                          <img src="images/singer-images/kgf-singer1.jpg" alt="sri krishna" title="Sri Krishna"> 
+                        </li>
+                        <li>
+                            <img src="images/singer-images/anirudh1.jpg" alt="Anirudh Ravichander" title="Anirudh Ravichander"> 
+                          </li>
+                          <li>
+                            <img src="images/singer-images//AR-Rahman1.jpg" alt="A.R.Rahman" title="A.R.Rahman"> 
+                          </li>
+                          <li>
+                            <img src="images/singer-images/Arijit-Singh1.png" alt="Arijit Singh" title="Arijit Singh"> 
+                          </li>
+                          <li>
+                            <img src="images/singer-images/chitra1.jpg" alt="K.S.Chithra" title="K.S.Chithra"> 
+                          </li>
+                          <li>
+                            <img src="images/singer-images/dsp1.jpg" alt="Devi Sri Prasad" title="Devi Sri Prasad"> 
+                          </li>
+                          <li>
+                            <img src="images/singer-images/shreya1.jpg" alt="Shreya Ghoshal" title="Shreya Ghoshal"> 
+                          </li>
+                          <li>
+                            <img src="images/singer-images/Sid-Sriram1.jpg" alt="Sid Sriram" title="Sid Sriram"> 
+                          </li>
+                          <li>
+                            <img src="images/singer-images/sonu-nigam1.jpg" alt="Sonu Nigam" title="Sonu Nigam"> 
+                          </li>
+                          <li>
+                            <img src="images/singer-images/spb1.jpg" alt="S.P.Balasubrahmanyam" title="S.P.Balasubrahmanyam"> 
+                          </li>
+                          <li>
+                            <img src="images/singer-images/sunitha1.jpg" alt="Sunitha" title="Sunitha"> 
+                          </li>
+                    </div>
+                    </div>
+
+            </div>
+            <div class="bottomPart">
+                <div class="musicPlayBox">
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                </div>
+                <li>
+                    <img src="images\song-albums\darling.jpg" alt="kgf-2">
+                    <h5>Sulthana Song
+                        <div>KGF-2</div>
+                    </h5>
+                    <div class="icons">
+                        <i class="bi bi-skip-start-fill"></i> 
+                        <i class="bi bi-play-fill"></i>
+                        <i class="bi bi-skip-end-fill"></i></div>
+                </li>
+                <div class="songControl">
+                    <span id="currentTime">0:00</span>
+                <div class="bar">
+                    <input type="range" id="seek" val="0" min="0" max="100">
+                    <div class="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+                <span id="totalTime">0:00</spam>
+                    <div class="volSection">
+                          <span><i class="bi bi-volume-down-fill"></i></span>
+                    <div class="vol">
+                        <input type="range" id="vol" min="0" max="50"> 
+                        <div class="vol_bar"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
